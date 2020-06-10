@@ -1,0 +1,57 @@
+/* .Card {
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 10%;
+  top: 0;
+  left: 0;
+
+ // componentDidMount() {
+  //   // gets deckID from the 1st API
+  //   const url = "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1";
+  //   let deck_id = "";
+  //   let get_cards_url = "";
+
+  //   axios
+  //     .get(url)
+  //     .then((res) => {
+  //       deck_id = res.data.deck_id;
+  //       get_cards_url = `https://deckofcardsapi.com/api/deck/${deck_id}/draw/?count=2`;
+  //       this.fetchCardsFromDeck(get_cards_url);
+  //     })
+  //     .catch((e) => {
+  //       console.log("Crash", e);
+  //     });
+  // }
+
+
+  
+  // fetchCardsFromDeck(url) {
+  //   // 2nd API --- gets 52 cards from the Deck and loads to state's prop cards[]
+  //   axios
+  //     .get(url)
+  //     .then((res) => {
+  //       this.setState(() => {
+  //         const cardObjects = res.data.cards;
+  //         return {
+  //           cards: [...this.state.cards, ...cardObjects],
+  //         };
+  //       });
+
+  //       if (res.data.remaining > 0) {
+  //         this.fetchCardsFromDeck(url);
+  //       }
+  //     })
+  //     .catch((e) => {
+  //       console.log("Crash", e);
+  //     });
+  // }
+
+
+
+
+
+
+
+
+
+} */
